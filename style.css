@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.heading{
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+}
+.container{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    z-index: 1000;
+    border: none;
+    box-shadow: 
+    5px 5px 10px 0 rgba(0, 0, 0, 0.25),
+    -5px -5px 10px 0 rgba(0, 0, 0, 0.25),
+    inset -5px -5px 20px 0 rgba(255, 255, 255, 1);
+}
+.buttons{
+    margin: 1rem;
+}
+.btn{
+    padding: .5rem 1rem;
+    margin: 2rem;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    box-shadow: 
+    5px 5px 10px 0 rgba(0, 0, 0, 0.25),
+    inset -5px -5px 20px 0 rgba(255, 255, 255, 1);
+    border-radius: 5px;
+}
